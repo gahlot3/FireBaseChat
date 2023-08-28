@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "https://github.com/gahlot3/FireBaseChat/tree/main/FirebaseChatRealTime"
+  spec.source_files  = "https://github.com/gahlot3/FireBaseChat/tree/main/FirebaseChatRealTime/FirebaseChatRealTime/FirebaseChatRealTime.docc/Resources"
   spec.exclude_files = "Classes/Exclude"
 
    spec.public_header_files = "FirebaseChatRealTime.h"
@@ -128,6 +128,6 @@ Pod::Spec.new do |spec|
 
   # spec.requires_arc = true
 
-   spec.dependency "Firebase"
+   spec.dependency 'FirebaseChatRealTime', '~> 0.0.1'
 
 end
